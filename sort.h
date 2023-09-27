@@ -31,7 +31,8 @@ typedef enum boolean
 
 
 /* Swapping func. */
-void swap_int(int *a, int *b);
+void swap_int(int *x, int *y);
+void interchange_nodes(listint_t **w, listint_t **s1, listint_t *s2);
 
 /* Prints func. of the array & list */
 void print_list(const listint_t *list);
@@ -39,5 +40,5 @@ void print_array(const int *array, size_t size);
 
 /* Prototypes of the func. */
 void bubble_sort(int *array, size_t size);
-
+void insertion_sort_list(listint_t **list);
 #endif
